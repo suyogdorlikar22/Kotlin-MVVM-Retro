@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Keltus</string>
+    <string name="title_activity_show_image">ShowImageActivity</string>
+</resources>
