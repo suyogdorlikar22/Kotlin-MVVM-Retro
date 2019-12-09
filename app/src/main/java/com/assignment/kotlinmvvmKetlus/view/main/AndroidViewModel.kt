@@ -1,9 +1,9 @@
 package com.assignment.kotlinmvvmKetlus.view.main
 
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import android.util.Log
-import com.assignment.kotlinmvvmKetlus.DataModel.Photos
+import com.assignment.kotlinmvvmKetlus.Model.Photos
 import com.assignment.kotlinmvvmKetlus.repository.PhotosRepository
 
 class AndroidViewModel: ViewModel() {

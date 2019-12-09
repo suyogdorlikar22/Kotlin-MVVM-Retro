@@ -1,6 +1,6 @@
 package com.assignment.kotlinmvvmKetlus.network
 
-import com.assignment.kotlinmvvmKetlus.DataModel.Photos
+import com.assignment.kotlinmvvmKetlus.Model.Photos
 import retrofit2.Call
 import retrofit2.http.GET
 

@@ -1,16 +1,16 @@
 package com.assignment.kotlinmvvmKetlus.view.main
 
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModelProviders
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.GridLayoutManager
-import android.support.v7.widget.LinearLayoutManager
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
 import android.util.Log
 import android.view.View
 import android.widget.Toast
-import com.assignment.kotlinmvvmKetlus.DataModel.Photos
+import com.assignment.kotlinmvvmKetlus.Model.Photos
 import com.assignment.kotlinmvvmKetlus.R
 import com.assignment.kotlinmvvmKetlus.app.GridItemDecoration
 import com.assignment.kotlinmvvmKetlus.app.Utils
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         viewModel = ViewModelProviders.of(this@MainActivity).get(AndroidViewModel::class.java)
 
-        recyclerView.layoutManager = GridLayoutManager(this@MainActivity,2)
+        recyclerView.layoutManager = GridLayoutManager(this@MainActivity, 2)
         //This will for default android divider
         recyclerView.addItemDecoration(GridItemDecoration(10, 2))
         if (Utils.checkInternetConnection(this@MainActivity)) {

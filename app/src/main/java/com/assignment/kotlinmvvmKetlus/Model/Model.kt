@@ -1,4 +1,4 @@
-package com.assignment.kotlinmvvmKetlus.DataModel
+package com.assignment.kotlinmvvmKetlus.Model
 
 data class Photos(
         val albumId : Int,

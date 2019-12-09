@@ -1,10 +1,10 @@
 package com.assignment.kotlinmvvmKetlus.view.main
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.assignment.kotlinmvvmKetlus.DataModel.Photos
+import com.assignment.kotlinmvvmKetlus.Model.Photos
 import com.assignment.kotlinmvvmKetlus.R
 import com.assignment.kotlinmvvmKetlus.comunicator.ItemClickListener
 import com.bumptech.glide.Glide

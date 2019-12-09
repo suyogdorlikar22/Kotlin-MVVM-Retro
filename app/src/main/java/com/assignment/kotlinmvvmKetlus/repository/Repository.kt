@@ -1,9 +1,9 @@
 package com.assignment.kotlinmvvmKetlus.repository
 
-import android.arch.lifecycle.MutableLiveData
+import androidx.lifecycle.MutableLiveData
 import android.util.Log
 import com.assignment.kotlinmvvmKetlus.network.RetrofitService.Factory.create
-import com.assignment.kotlinmvvmKetlus.DataModel.Photos
+import com.assignment.kotlinmvvmKetlus.Model.Photos
 import retrofit2.Call
 import retrofit2.Callback
 
