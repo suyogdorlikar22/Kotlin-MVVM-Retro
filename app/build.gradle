@@ -25,6 +25,14 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+        debug {
+            debuggable true
+        }
+        customDebuggableBuildType {
+            debuggable true
+        }
+
     }
     packagingOptions {
         exclude 'META-INF/rxjava.properties'
@@ -55,6 +63,6 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.7.1'
     kapt 'com.github.bumptech.glide:compiler:4.7.1'
-
+    implementation 'com.commit451:PhotoView:1.2.4'
 
 }

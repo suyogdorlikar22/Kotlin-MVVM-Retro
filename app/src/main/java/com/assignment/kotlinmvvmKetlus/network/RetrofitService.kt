@@ -30,7 +30,7 @@ class RetrofitService {
                     .client(okHttpClient)
                     .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                     .addConverterFactory(GsonConverterFactory.create(gson))
-                    .baseUrl("https://jsonplaceholder.typicode.com/")
+                    .baseUrl("https://api.github.com/")
                     .build()
 
             return retrofit.create(ApiInterface::class.java)
