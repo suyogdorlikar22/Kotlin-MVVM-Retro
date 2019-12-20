@@ -11,7 +11,7 @@ class MainViewModel: ViewModel() {
     private val mRepository  =  PhotosRepository()
 
     fun getPhotosData() : MutableLiveData<List<Users>>? {
-        Log.e("getAndroidData","yes")
+        Log.e("getPhotosData","yes")
         return mRepository.loadPhotosData()
     }
 

@@ -20,7 +20,7 @@ class PhotosRepository {
     fun loadPhotosData(): MutableLiveData<List<Users>>? {
 
         mIsUpdating.value=true;
-        Log.e("loadAndroidData","yes")
+        Log.e("loadPhotosData","yes")
 
         val retrofitCall  = create().getPhotos()
 

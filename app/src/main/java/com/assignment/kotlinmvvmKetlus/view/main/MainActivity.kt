@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener,ItemClickListener
 
 
     private fun getPhotos() {
-        Log.e("getAndroidVersion","yes")
+        Log.e("getPhotos","yes")
 
         viewModel.getPhotosData()?.observe(this, Observer<List<Users>> { list ->
 
